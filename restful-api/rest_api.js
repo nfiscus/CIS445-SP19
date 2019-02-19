@@ -15,6 +15,7 @@ app.get('/', function(request, response){
 });
 
 app.delete('/items/delete/:itemid', function(request, response){
+   response.writeHead(200);
    const id = request.params.itemid;
    let item = null;
    for (var i = 0; i < items.length; i++) {
@@ -49,7 +50,8 @@ app.delete('/items/delete/:itemid', function(request, response){
    response.end(JSON.stringify(item, null, 3));
    
 }).post('/items/add/:itemid', function(request, response) {
-    
+   
+   response.writeHead(200); 
    const id = request.params.itemid;
    let newItem = {id: id, name: 'Default Name', effect: 'Default Effect'};
    items.push(newItem);
@@ -57,7 +59,8 @@ app.delete('/items/delete/:itemid', function(request, response){
    response.end(JSON.stringify(items, null, 3));
     
 }).put('/items/update/:itemid', function(request, response){
-    
+   
+   response.writeHead(200); 
    const id = request.params.itemid;
    let item = null;
    for (var i = 0; i < players.length; i++) {
@@ -77,6 +80,7 @@ app.delete('/items/delete/:itemid', function(request, response){
 
 app.delete('/locations/delete/:locationid', function(request, response) {
     
+    response.writeHead(200);
     const id = request.params.locationid;
     let location = null;
     for (var i = 0; i < locations.length; i++) {
@@ -112,6 +116,7 @@ app.delete('/locations/delete/:locationid', function(request, response) {
     
 }).post('/locations/add/:locationid', function(request, response) {
     
+   response.writeHead(200);
    const id = request.params.locationid;
    let newLocation = {id: id, name: 'Default Name'};
    locations.push(newLocation);
@@ -120,6 +125,7 @@ app.delete('/locations/delete/:locationid', function(request, response) {
     
 }).put('/locations/update/:locationid', function(request, response){
     
+   response.writeHead(200);
    const id = request.params.locationid;
    let location = null;
    for (var i = 0; i < locations.length; i++) {
@@ -138,6 +144,7 @@ app.delete('/locations/delete/:locationid', function(request, response) {
 
 app.delete('/players/delete/:playerid', function(request, response){
     
+   response.writeHead(200);
    const id = request.params.playerid;
    let player = null;
    for (var i = 0; i < players.length; i++) {
@@ -173,6 +180,7 @@ app.delete('/players/delete/:playerid', function(request, response){
     
 }).post('/players/add/:playerid', function(request, response) {
     
+   response.writeHead(200);
    const id = request.params.playerid;
    let newPlayer = {id: id, name: 'Default Name', occupation: 'Default Occupation'};
    players.push(newPlayer);
@@ -181,6 +189,7 @@ app.delete('/players/delete/:playerid', function(request, response){
    
 }).put('/players/update/:playerid', function(request, response){
     
+   response.writeHead(200);
    const id = request.params.playerid;
    let player = null;
    for (var i = 0; i < players.length; i++) {
