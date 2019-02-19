@@ -1,0 +1,17 @@
+[
+   {
+      "id": "01",
+      "name": "Red Mushroom",
+      "effect": "Enlargement"
+   },
+   {
+      "id": "02",
+      "name": "Fire Flower",
+      "effect": "Pyrokinesis"
+   },
+   {
+      "id": "03",
+      "name": "Blue Shell",
+      "effect": "Homing Missile"
+   }
+]
