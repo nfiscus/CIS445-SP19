@@ -4,7 +4,7 @@
             "birth_date": "03-08-1952",
             "first_name": "Georgi",
             "last_name": "Facello",
-            "gender": 'M',
+            "gender": "M",
             "hire_date": "3-21-2008",
             "salaries": [
                 { "amount": 72000, "from_date": "3-21-2008", "to_date": "2-19-2019" }
@@ -20,7 +20,7 @@
             "birth_date": "06-18-1978",
             "first_name": "John",
             "last_name": "Doe",
-            "gender": 'M',
+            "gender": "M",
             "hire_date": "5-17-2006",
             "salaries": [
                 { "amount": 55000, "from_date": "5-17-2006", "to_date": "2-19-2019" }
