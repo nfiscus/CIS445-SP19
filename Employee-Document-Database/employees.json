@@ -5,7 +5,7 @@
             "first_name": "Georgi",
             "last_name": "Facello",
             "gender": 'M',
-            "hire_date": "3-21-2008"
+            "hire_date": "3-21-2008",
             "salaries": [
                 { "amount": 72000, "from_date": "3-21-2008", "to_date": "2-19-2019" }
             ],
@@ -21,7 +21,7 @@
             "first_name": "John",
             "last_name": "Doe",
             "gender": 'M',
-            "hire_date": "5-17-2006"
+            "hire_date": "5-17-2006",
             "salaries": [
                 { "amount": 55000, "from_date": "5-17-2006", "to_date": "2-19-2019" }
             ],
